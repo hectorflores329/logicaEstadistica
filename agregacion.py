@@ -63,6 +63,25 @@ def agregacion():
         columns = dfData.columns.tolist()
         print(columns)
 
+    colsExsistentes = ["Año", "Mes"]
+    cols = ["Glosa Variable", "Mes"]
+
+    dfDescriptor = pd.read_excel('descriptor-de-campos_BUENA.xlsx', skiprows=13)
+
+    for j in columns:
+        
+        dfDesc = dfDescriptor[dfDescriptor["Glosa Sector"] == gs]
+        dfDesc = dfDesc[dfDesc["Glosa Variable"] == gv + " " + j]
+
+        cantRegistros = len(dfDesc)
+        # print(cantRegistros)
+        
+        if(cantRegistros >= 1):
+            colsExsistentes.append(j)
+            cols.append(gv + " " + j)
+        
+    colsExsistentes
+
     dfTabla = dfData.loc[:, colsExsistentes]
     dfTabla.columns = cols
 
