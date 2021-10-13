@@ -10,22 +10,19 @@ def principal():
     descarga()
 
 def descarga():
-    
+
     for i, index in df.iterrows():
     
-    tema = df['Tema'][i]
-    nombre = df['Nombre'][i]
-    region = df['Región'][i]
-    url = df['Link'][i]
-        
-    ext = pathlib.Path(url)
-    extType = ext.suffix.split("?")
-    
-    # print(url)
-    # print(i+1)
-    
-    file = requests.get(url)
-    open('files/' + str(tema) + ' - ' + str(nombre) + ' - ' + str(region) + str(extType[0]), 'wb').write(file.content)
+        tema = df['Tema'][i]
+        nombre = df['Nombre'][i]
+        region = df['Región'][i]
+        url = df['Link'][i]
+            
+        ext = pathlib.Path(url)
+        extType = ext.suffix.split("?")
+
+        file = requests.get(url)
+        open('files/' + str(tema) + ' - ' + str(nombre) + ' - ' + str(region) + str(extType[0]), 'wb').write(file.content)
 
 
 if __name__ == '__main__':
