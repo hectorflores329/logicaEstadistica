@@ -6,6 +6,8 @@ def principal():
 
 # LÓGICA / DESCARGA 1
 
+filename = "files/Electricidad, Gas y Agua - Distribución Electrica - Biobio.xlsx"
+
 def registros(Year, Mes, Total, Residencial, Comercial, Minera, Agricola, Industrial, Varios):
     
     diccionario = {}
