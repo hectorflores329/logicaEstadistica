@@ -34,6 +34,35 @@ def months(mes):
 def agregacion():
     dfRegion = pd.read_excel("regiones.xlsx")
 
+    file = "cFiles/*.xlsx"
+    files = glob.glob(file)
+
+    archivos = np.array(files)
+
+    for i in archivos:
+        
+        file = archivos[0][16:]
+        file = file.split("-")
+        
+        gs = file[0] # gs = Glosa sector
+        gv = file[1] # gv = Glosa variable
+        region = file[2]
+        region = region.replace(".xlsx","")
+        periodicidad = "Mensual"
+        
+        dfR = dfRegion[dfRegion["Glosa región"] == str(region)]
+        indx = dfR.index[0]
+        cRegion = dfR["Código región"][indx]
+
+        print(gs)
+        print(gv)
+        print(cRegion)
+        print(region)
+        
+        dfData = pd.read_excel(i)
+        columns = dfData.columns.tolist()
+        print(columns)
+
     dfTabla = dfData.loc[:, colsExsistentes]
     dfTabla.columns = cols
 
