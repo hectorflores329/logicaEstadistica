@@ -1,6 +1,6 @@
 import pandas as pd
-import time
-import requests
+import glob
+import numpy as np
 
 def principal():
     agregacion()
