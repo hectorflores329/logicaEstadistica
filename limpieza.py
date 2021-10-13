@@ -28,13 +28,7 @@ def registros(Year, Mes, Total, Residencial, Comercial, Minera, Agricola, Indust
 def descarga1():
 
     df = pd.read_excel(filename, skiprows=4)
-
-    print("COLUMNAS" + df.columns)
-    
-    del df["Unnamed: 9"]
-    del df["Unnamed: 10"]
-
-    
+  
 
     df.columns = ["Año", "Mes", "Total", "Residencial", "Comercial", "Minería", "Agrícola", "Industrial", "Varios"]
 
