@@ -1,4 +1,4 @@
-name: Estadísticas Regionales (Descarga)
+name: Estadísticas Regionales
 
 on:
     push
@@ -21,16 +21,13 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Estadísticas Regionales (Descarga)
+    - name: Estadísticas Regionales (Limpieza)
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-        python descarga.py
+        python limpieza.py
 
     - uses: stefanzweifel/git-auto-commit-action@v2
       with:
-        commit_message: "Estadísticas Regionales (Descarga)"
+        commit_message: "Estadísticas Regionales"
         branch: main
         # Optional glob pattern of files which should be added to the commit
         #file_pattern: /
