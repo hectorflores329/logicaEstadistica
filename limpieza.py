@@ -1,5 +1,7 @@
 import pandas as pd
 import math
+import glob
+import numpy as np
 
 def principal():
     descarga1()
