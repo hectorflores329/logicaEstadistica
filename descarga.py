@@ -2,6 +2,7 @@ import pandas as pd
 import requests
 import pathlib
 import os
+import time
 import urllib
 
 df = pd.read_excel('estadísticas-regionales-nuevo.xlsx', sheet_name='Links')
@@ -21,8 +22,9 @@ def descarga():
         ext = pathlib.Path(url)
         extType = ext.suffix.split("?")
 
-        file = requests.get(url)
-        open('files/' + str(tema) + ' - ' + str(nombre) + ' - ' + str(region) + str(extType[0]), 'wb').write(file.content)
+
+        downloadFile = requests.get(url)
+        open('files/' + str(tema) + ' - ' + str(nombre) + ' - ' + str(region) + str(extType[0]), 'wb').write(downloadFile.content)
 
 
 if __name__ == '__main__':
