@@ -1,0 +1,154 @@
+1634235076083	geckodriver	INFO	Listening on 127.0.0.1:59019
+1634235076477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "43671" "-no-remote" "-profile" "/tmp/rust_mozprofileJbIZhh"
+1634235076478	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:46465
+1634235076478	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235076578	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+*** You are running in headless mode.
+1634235076678	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235076779	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235076879	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235076979	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077079	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077180	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077280	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077380	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077481	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077581	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077681	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077782	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077882	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235077982	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235078082	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235078183	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235078283	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235078383	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235078484	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235078584	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235078684	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL missing
+1634235078784	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235078885	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235078985	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079012	RemoteAgent	DEBUG	CDP enabled
+1634235079012	Marionette	INFO	Marionette enabled
+1634235079085	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079185	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079286	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079386	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079434	Marionette	TRACE	Received observer notification toplevel-window-ready
+1634235079486	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079587	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079687	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079787	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079887	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235079988	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235080089	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235080189	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235080289	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235080389	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235080490	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235080590	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1634235080690	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235080790	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJbIZhh/search.json.mozlz4", (void 0)))
+1634235080890	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235080991	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235081091	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235081191	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235081291	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235081391	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235081429	RemoteAgent	TRACE	Received observer notification remote-startup-requested
+1634235081458	RemoteAgent	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1634235081458	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1634235081458	RemoteAgent	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1634235081459	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1634235081460	RemoteAgent	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1634235081460	RemoteAgent	DEBUG	Setting recommended pref browser.search.update to false
+1634235081460	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1634235081461	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1634235081461	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1634235081461	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1634235081461	RemoteAgent	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1634235081461	RemoteAgent	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1634235081461	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1634235081462	RemoteAgent	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1634235081462	RemoteAgent	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1634235081462	RemoteAgent	DEBUG	Setting recommended pref dom.file.createInChild to true
+1634235081462	RemoteAgent	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1634235081462	RemoteAgent	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1634235081463	RemoteAgent	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1634235081463	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1634235081463	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1634235081464	RemoteAgent	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1634235081464	RemoteAgent	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1634235081464	RemoteAgent	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1634235081466	RemoteAgent	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1634235081466	RemoteAgent	DEBUG	Setting recommended pref signon.autofillForms to false
+1634235081467	RemoteAgent	DEBUG	Setting recommended pref signon.rememberSignons to false
+1634235081469	RemoteAgent	DEBUG	Setting recommended pref browser.topsites.contile.enabled to false
+1634235081469	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.features.standard to -tp,tpPrivate,cookieBehavior0,-cm,-fp
+1634235081469	RemoteAgent	DEBUG	Setting recommended pref network.cookie.cookieBehavior to 0
+1634235081473	Marionette	TRACE	Received observer notification marionette-startup-requested
+1634235081473	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+DevTools listening on ws://localhost:43671/devtools/browser/b59cf428-166a-4fe9-9549-c15811b18c07
+1634235081491	geckodriver::marionette	TRACE	Connection refused (os error 111). Retrying in 100ms
+1634235081533	Marionette	TRACE	All scripts recorded.
+1634235081533	RemoteAgent	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1634235081534	Marionette	INFO	Listening on port 46465
+1634235081535	Marionette	DEBUG	Marionette is listening
+1634235081611	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:54874
+1634235081612	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:46465.
+1634235081617	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","pageLoadStrategy":"normal"}]
+1634235081628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634235081635	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"e4c364c8-f72d-445d-b32d-01672304ced2","capabilities":{"browserName":"firefox","browserVersion":"93.0" ... ofileJbIZhh","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"proxy":{}}}]
+1634235081637	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"e4c364c8-f72d-445d-b32d-01672304ced2","capabilities":{"acceptInsecureCerts":true,"browserName":"firefox","browserVersion":"93.0","moz:accessibilityChecks":false,"moz:buildID":"20210927210923","moz:debuggerAddress":"localhost:43671","moz:geckodriverVersion":"0.30.0","moz:headless":true,"moz:processID":1885,"moz:profile":"/tmp/rust_mozprofileJbIZhh","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"linux","platformVersion":"5.8.0-1042-azure","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1634235081639	webdriver::server	DEBUG	-> POST /session/e4c364c8-f72d-445d-b32d-01672304ced2/timeouts {"pageLoad": 60000}
+1634235081639	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"pageLoad":60000}]
+1634235081640	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1634235081640	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1634235081641	webdriver::server	DEBUG	-> POST /session/e4c364c8-f72d-445d-b32d-01672304ced2/url {"url": "https://regiones.ine.cl/arica-y-parinacota/estadisticas-regionales/economia/energia-y-medioambiente/generacion-y-distribucion-de-energia-electrica"}
+1634235081641	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://regiones.ine.cl/arica-y-parinacota/estadisticas-regionales/economia/energia-y-medioambiente/generacion-y-distribucion-de-energia-electrica"}]
+1634235081647	Marionette	TRACE	[21] Received event beforeunload for about:blank
+1634235082994	Marionette	TRACE	[21] Received event pagehide for about:blank
+JavaScript error: https://regiones.ine.cl/arica-y-parinacota/estadisticas-regionales/economia/energia-y-medioambiente/generacion-y-distribucion-de-energia-electrica, line 1125: Error: ASP.NET Ajax client-side framework failed to load.
+JavaScript error: https://regiones.ine.cl/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tegUuok2anpiaq8HqZ6IjMMpV9tLoh5tVVSFuU_vU2Qc4Y35ozORxria3-utQnOjjsm-6mNddCDt0rrBz5fgN3MITgCcIgksDvtFG3R1KwknnGsmPPO9tmQ_WA8HRYb0t9EgdZMAFFhQR2TpZ1G42t_DwXoiBb-dgwqWkTLW0I5P0&t=ffffffff999c3159, line 10: ReferenceError: Type is not defined
+1634235085971	Marionette	TRACE	[21] Received event DOMContentLoaded for https://regiones.ine.cl/arica-y-parinacota/estadisticas-regionales/economia/energia-y-medioambiente/generacion-y-distribucion-de-energia-electrica
+1634235086182	Marionette	TRACE	[21] Received event pageshow for https://regiones.ine.cl/arica-y-parinacota/estadisticas-regionales/economia/energia-y-medioambiente/generacion-y-distribucion-de-energia-electrica
+1634235086183	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1634235086185	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1634235086187	webdriver::server	DEBUG	-> POST /session/e4c364c8-f72d-445d-b32d-01672304ced2/element {"using": "xpath", "value": "/html/body/form/div[3]/div[5]/div/div/div/div[1]/div/div/div/div[1]"}
+1634235086189	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/form/div[3]/div[5]/div/div/div/div[1]/div/div/div/div[1]"}]
+1634235086192	Marionette	TRACE	[21] MarionetteCommands actor created for window id 4294967298
+1634235086200	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7112ddf5-4cf4-4777-b4c1-af6fd29ee6a6"}}]
+1634235086200	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"7112ddf5-4cf4-4777-b4c1-af6fd29ee6a6"}}
+1634235086202	webdriver::server	DEBUG	-> POST /session/e4c364c8-f72d-445d-b32d-01672304ced2/element/7112ddf5-4cf4-4777-b4c1-af6fd29ee6a6/click {"id": "7112ddf5-4cf4-4777-b4c1-af6fd29ee6a6"}
+1634235086202	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementClick",{"id":"7112ddf5-4cf4-4777-b4c1-af6fd29ee6a6"}]
+1634235086241	Marionette	TRACE	Received DOM event click for [object HTMLDivElement]
+1634235086447	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1634235086447	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1634235086448	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1634235089451	webdriver::server	DEBUG	-> POST /session/e4c364c8-f72d-445d-b32d-01672304ced2/element {"using": "xpath", "value": "/html/body/form/div[3]/div[5]/div/div/div/div[2]/div/div/div/div[4]/div/div/div[2]"}
+1634235089452	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/form/div[3]/div[5]/div/div/div/div[2]/div/div/div/div[4]/div/div/div[2]"}]
+1634235089455	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"facb0a97-ff6c-47fb-99ff-706900738173"}}]
+1634235089455	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"facb0a97-ff6c-47fb-99ff-706900738173"}}
+1634235089456	webdriver::server	DEBUG	-> POST /session/e4c364c8-f72d-445d-b32d-01672304ced2/element/facb0a97-ff6c-47fb-99ff-706900738173/click {"id": "facb0a97-ff6c-47fb-99ff-706900738173"}
+1634235089457	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementClick",{"id":"facb0a97-ff6c-47fb-99ff-706900738173"}]
+1634235089895	Marionette	TRACE	Received DOM event click for [object HTMLDivElement]
+1634235090100	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1634235090101	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1634235090101	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1634235093106	webdriver::server	DEBUG	-> POST /session/e4c364c8-f72d-445d-b32d-01672304ced2/element {"using": "xpath", "value": "/html/body/form/div[3]/div[5]/div/div/div/div[3]/div/div/div/div/div[2]/a/span[2]"}
+1634235093107	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/form/div[3]/div[5]/div/div/div/div[3]/div/div/div/div/div[2]/a/span[2]"}]
+1634235093109	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"05d9604c-3da8-419c-99e6-83484ed0907e"}}]
+1634235093110	webdriver::server	DEBUG	<- 200 OK {"value":{"element-6066-11e4-a52e-4f735466cecf":"05d9604c-3da8-419c-99e6-83484ed0907e"}}
+1634235093111	webdriver::server	DEBUG	-> POST /session/e4c364c8-f72d-445d-b32d-01672304ced2/element/05d9604c-3da8-419c-99e6-83484ed0907e/click {"id": "05d9604c-3da8-419c-99e6-83484ed0907e"}
+1634235093111	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementClick",{"id":"05d9604c-3da8-419c-99e6-83484ed0907e"}]
+1634235093133	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1634235093141	Marionette	TRACE	[21] Received event beforeunload for https://regiones.ine.cl/arica-y-parinacota/estadisticas-regionales/economia/energia-y-medioambiente/generacion-y-distribucion-de-energia-electrica
+1634235093343	Marionette	TRACE	Received observer notification domwindowopened
+1634235098357	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1634235098358	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1634235098358	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1634235101403	Marionette	DEBUG	Closed connection 0
