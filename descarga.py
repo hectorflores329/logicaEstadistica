@@ -42,9 +42,10 @@ def descarga():
     serie.click()
     time.sleep(3)
 
-    archivo = driver.find_element_by_xpath("/html/body/form/div[3]/div[5]/div/div/div/div[3]/div/div/div/div/div[2]/a/span[2]")
-    archivo.click()
-    time.sleep(3)
+    archivo = driver.find_element_by_xpath("/html/body/form/div[3]/div[5]/div/div/div/div[3]/div/div/div/div/div[2]/a").get_attribute('href')
+
+    filen1 = requests.get(archivo, allow_redirects=True)
+    open('cFiles/archivo.xlsx', 'wb').write(filen1.content)
 
     print("ARCHIVO DESCARGADO CORRECTAMENTE")
 
