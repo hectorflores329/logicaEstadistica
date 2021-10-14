@@ -18,8 +18,8 @@ enlace = "https://regiones.ine.cl/arica-y-parinacota/estadisticas-regionales/eco
 def getDriver(enlace):
     
     options = Options()
-    # options.log.level = "trace"
-    # options.add_argument("--headless")
+    options.log.level = "trace"
+    options.add_argument("--headless")
     options.set_preference("browser.download.manager.showWhenStarting", False)
     options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/csv")
     driver = webdriver.Firefox(options=options)
