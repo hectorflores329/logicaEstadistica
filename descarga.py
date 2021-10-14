@@ -1,39 +1,31 @@
 import pandas as pd
-import requests
-import pathlib
-import os
+import shutil
 import time
-import urllib
-
-
-requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS += ':RC4-SHA'
-try:
-    requests.packages.urllib3.contrib.pyopenssl.DEFAULT_SSL_CIPHER_LIST += ':RC4-SHA'
-except AttributeError:
-    # no pyopenssl support used / needed / available
-    pass
-
-df = pd.read_excel('estadísticas-regionales-nuevo.xlsx', sheet_name='Links')
+import glob
+import os
+import csv
+import requests
+import numpy as np
+from datetime import datetime
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 
 def principal():
-    descarga()
+    getDriver(enlace)
 
-def descarga():
-    requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS += ':RC4-SHA'
+enlace = "https://regiones.ine.cl/documentos/default-source/region-xv/estadisticas/generacion-y-distribucion-de-energia-electrica/cuadros-estadisticos/series-mensuales/series-mensuales-desde-2015-a-la-fecha.xlsx?sfvrsn=c19505b2_8"
+
+def getDriver(enlace):
     
-    for i, index in df.iterrows():
-    
-        tema = df['Tema'][i]
-        nombre = df['Nombre'][i]
-        region = df['Región'][i]
-        url = df['Link'][i]
-            
-        ext = pathlib.Path(url)
-        extType = ext.suffix.split("?")
-
-
-        downloadFile = requests.get(url, verify=False)
-        open('files/' + str(tema) + ' - ' + str(nombre) + ' - ' + str(region) + str(extType[0]), 'wb').write(downloadFile.content)
+    options = Options()
+    options.log.level = "trace"
+    options.add_argument("--headless")
+    options.set_preference("browser.download.manager.showWhenStarting", False)
+    options.set_preference("browser.helperApps.neverAsk.saveToDisk", "text/csv")
+    driver = webdriver.Firefox(options=options)
+    driver.set_page_load_timeout("60")
+    driver.get(enlace)
+    return driver
 
 
 if __name__ == '__main__':
