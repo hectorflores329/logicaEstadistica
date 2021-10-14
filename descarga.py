@@ -5,6 +5,7 @@ import glob
 import os
 import csv
 import requests
+import wget
 import numpy as np
 from datetime import datetime
 from selenium import webdriver
@@ -25,6 +26,7 @@ def getDriver(enlace):
     driver = webdriver.Firefox(options=options)
     driver.set_page_load_timeout("60")
     driver.get(enlace)
+    
     return driver
 
 
