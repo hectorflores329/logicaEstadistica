@@ -23,7 +23,7 @@ def descarga():
         extType = ext.suffix.split("?")
 
 
-        downloadFile = requests.get(url)
+        downloadFile = requests.get(url, verify=False)
         open('files/' + str(tema) + ' - ' + str(nombre) + ' - ' + str(region) + str(extType[0]), 'wb').write(downloadFile.content)
 
 
